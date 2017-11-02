@@ -29,7 +29,7 @@ const appViewModel = new Vue({
             fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple")
             .then(response=> response.json())
             .then((json) => {
-                // assisn the first question's category to the category property -> where is this going? How does actually GET into data() above? 
+                // assign the first question's category to the category property -> where is this going? How does actually GET into data() above? 
                 this.category = json.results[0].category;
 
                 // We must loop through the results to grab the question property of each object in the array
