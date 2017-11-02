@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Me | The quiz game that ruins friendships</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header class="app-header">
+        <h1 class="app-title">#QUIZME</h1>
+        <p class="app-slogan">When the other person being wrong is more satisfying than being right.</p>
+    </header>
+    <main id="quiz">
+        Category: {{category}}
+        <div>
+            Questions: {{questions}}
+        </div>
+    </main>
+
+    <script type="text/x-template" id="your-template">
+    </script> 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="dist/app.min.js"></script>
+</body>
+</html>
