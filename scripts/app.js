@@ -1,20 +1,5 @@
 // API URL: https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple
 
-// var myQuizData = null;
-
-
-//     fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple")
-//     .then(response=> response.json())
-//     .then(function(json) {
-//         myQuizData = json;
-//         console.log(json);
-        
-//     })
-
-//     console.log(myQuizData)
-
-
-
 // VIEWMODELS
 // =============================================================================
 const appViewModel = new Vue({
